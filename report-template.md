@@ -15,7 +15,8 @@ In this section, describe the analysis you completed for the machine learning mo
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+ This model demonstrates higher accuracy in predicting healthy loans compared to high-risk loans. The precision for predicting high-risk loans is reported to be 84%, with an F1 score of 87%. Conversely, for positive loans, the precision and F1 score are both 100%.
+The confusion matrix indicates that there are 66 false negatives and 575 true negtives. Its a high number.
 
 
 
