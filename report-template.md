@@ -21,7 +21,13 @@ The confusion matrix indicates that there are 66 false negatives and 575 true ne
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+   The improved model, achieved through the utilization of random oversampling, demonstrates enhanced performance compared to the previous model. This enhancement is attributed to the equalization of the sample count for the class labeled as 1, now matching that of the class labeled as 0, resulting in 56,293 samples for each class.
+
+As a consequence of this adjustment, the number of false negatives in the confusion matrix decreased significantly to just 4. However, it is worth noting that the false positives increased compared to the previous model.
+
+Additionally, the classification report reveals a higher recall of 100% for the class labeled as 0, compared to the previous model's recall of 99%. Furthermore, this improved model exhibits a slight increase in precision and F1 score for the class labeled as 0.
+
+The overall accuracy of the model remained nearly the same, maintaining a high level of 99%, which aligns with the accuracy achieved by the previous model.
 
 ## Summary
 
