@@ -8,7 +8,7 @@ In this section, describe the analysis you completed for the machine learning mo
 * I was using a dataset consisting of the following fields loan size,	interest rate,	borrower's income,	debt to income,	number of accounts,	derogatory marks,	total debts, and	loan status. We used a loan status as 'y' variable to predict if the loan is good 0 or high risk 1.
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+*I used LogisticRegression, standart scaler to transform x variables and oversampling method to predict the second model.
 
 ## Results
 
@@ -32,7 +32,8 @@ The overall accuracy of the model remained nearly the same, maintaining a high l
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
+*The model 2 performs better than models 1,because it is important for financial institution to predict the high risk loans.
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
 If you do not recommend any of the models, please justify your reasoning.
+I would use the model 2 as the basis.
